@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
   s.name             = 'NeuraSwiftSDKFramework'
 
 # ---------------------------------------------------------------------
-  s.version           = '5.1.10'
-  s.source      = { :http => 'https://github.com/NeuraLabs/NeuraSwiftSDKFramework/releases/download/5.1.10/NeuraSDK.framework.zip' }
+  s.version           = '5.1.9-beta'
+  s.source      = { :http => 'https://github.com/NeuraLabs/NeuraSwiftSDKFramework/releases/download/5.1.9-beta/NeuraSDK.framework.zip' }
 # =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
 
 
@@ -31,8 +31,8 @@ Thank you for choosing Neura. Neura intelligently transforms customer engagement
   
 
   s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
-  #s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.platform          = :ios
   s.ios.deployment_target = '9.0'
