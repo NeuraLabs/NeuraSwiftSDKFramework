@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
   s.name             = 'NeuraSwiftSDKFramework'
 
 # ---------------------------------------------------------------------
-  s.version           = '5.1.12'
-  s.source      = { :http => 'https://github.com/NeuraLabs/NeuraSwiftSDKFramework/releases/download/5.1.12/NeuraSDK.framework.zip' }
+  s.version           = '5.1.14'
+  s.source      = { :http => 'https://github.com/NeuraLabs/NeuraSwiftSDKFramework/releases/download/5.1.14/NeuraSDK.framework.zip' }
 # =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
 
 
